@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Software Module</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+        <!-- SideNav -->
+        <div class="sidenav">
+            <a href="index.html#main" class="scroll">Main</a>
+            <a href="index.html#video" class="scroll">Görüntü</a>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+				<div class="inner">
+					<a href="../index.html" class="logo">Data Glasses</a>
+					<nav id="nav">
+                        <a href="../donanim/index.html">Donanım</a>
+                        <a href="../server/index.html">Server-Arayüz</a>
+                        <a href="../tasarim/index.html">Tasarım</a>
+					</nav>
+				</div>
+			</header>
+
+        <!-- Main -->
+		<section id="main" class="wrapper">
+			<div class="inner">
+				<header class="align-center">
+					<h2>Server-Arayüz modülü</h2>
+					<p>Qt linux ve Windows</p>
+				</header>
+                <div class="image \-2u(medium) left">
+                    <img src="../images/server/tasarim.png" alt="tasarim" />
+
+                </div>
+				<p>Server - Arayüz modülü hem arayüzü hemde arka planda data alışveriş ve yönetimini sağlar.Buradaki arayüz cross platform olarak hem windows hemde linuxda çalışmaktadır. Arka planda ise TCP haberleşmesi ile client haberleşmesi yapar.</p>
+
+                <p>
+				Arayüzde doktor hemşire arasındaki mesajlaşmalar hastaların listesi ve onların durumları(kalp,kan ve şeker) simüle edilme adına buradan da güncellenmektedir. ve arayüzde yine doktor ve hemşirelerin online durumları iconlar ile temsil edilmektedir.Aynı zamanda ekrandan doktor ve hemşire eklemeside yapılmaktadır. 
+                </p>
+                <p>
+				Arayüzü tasarlarken arka planda clientlarla haberleştirirken karşılaştığımız en büyük sıkıntı speech to text olayıydı .Windows için google sağladı API uygun dilde yoktu.Bizde bu sıkıntıyı çözmek için sesi clientlarda google'ın sağladığı rest servislerden faydalanarak çözdük.
+                </p>
+
+			</div>
+		</section>
+
+        <!-- Video -->
+		<section id="video" class="wrapper">
+
+			<div class="align-center">
+                <h2 class="align-center">Arayüzden Görüntü</h2>
+				<img src="../images/server/arayuz.png" alt="tasarim" />
+			</div>
+		</section>
+
+      
+
+		 <!-- Footer -->
+        <footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright"><a href="http://www.gtu.edu.tr/">Gebze Teknik Üniversitesi</a> BİL 396  Proje 1 Grup 3 - 2018</div>
+                        <a href="https://github.com/GTU-Project-Group3/" class="icon align-left fa-github"></a>
+                    </div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
